@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Crear Usuario
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <label>Username</label>
+        <input name="username" requeried>
+
+        <label>Email</label>
+        <input name="email" requeried>
+
+        <label>Edad</label>
+        <input name="edad" requeried>
+
+        <input type="submit" value="Guardar">
+    </form>
+{% endblock %}
